@@ -5,6 +5,7 @@
  * @format
  * @flow
  */
+import firebase from '@react-native-firebase/app';
 
 import React from 'react';
 import {

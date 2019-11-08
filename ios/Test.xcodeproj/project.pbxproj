@@ -20,6 +20,8 @@
 		7F110F89EE4B18B582046D00 /* libPods-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98755B6AC70189F60120705B /* libPods-Test.a */; };
 		9450630DB2B4183F9A2D58A6 /* libPods-Test-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC27D5512DF26079B3452FE4 /* libPods-Test-tvOS.a */; };
 		9986A31FF51B37CCEE720CAE /* libPods-TestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AE1AD781E16ABA576E4823 /* libPods-TestTests.a */; };
+		D63CA6DB23759E78009BBDAC /* google-services.json in Resources */ = {isa = PBXBuildFile; fileRef = D63CA6DA23759E78009BBDAC /* google-services.json */; };
+		D63CA6DF23759F2D009BBDAC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D63CA6DE23759F2D009BBDAC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		98755B6AC70189F60120705B /* libPods-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC27D5512DF26079B3452FE4 /* libPods-Test-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04DE5EE9EB5D2DBB4365A96 /* Pods-TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTests.debug.xcconfig"; path = "Target Support Files/Pods-TestTests/Pods-TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D63CA6DA23759E78009BBDAC /* google-services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "google-services.json"; path = "Test/google-services.json"; sourceTree = "<group>"; };
+		D63CA6DE23759F2D009BBDAC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EDD28526209A401E38938746 /* Pods-TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTests.release.xcconfig"; path = "Target Support Files/Pods-TestTests/Pods-TestTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 		13B07FAE1A68108700A75B9A /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				D63CA6DE23759F2D009BBDAC /* GoogleService-Info.plist */,
+				D63CA6DA23759E78009BBDAC /* google-services.json */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -161,7 +167,6 @@
 				C04DE5EE9EB5D2DBB4365A96 /* Pods-TestTests.debug.xcconfig */,
 				EDD28526209A401E38938746 /* Pods-TestTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -310,6 +315,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -339,7 +345,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				D63CA6DF23759F2D009BBDAC /* GoogleService-Info.plist in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				D63CA6DB23759E78009BBDAC /* google-services.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

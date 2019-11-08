@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "578365737129",
+    "firebase_url": "https://paid-1570884647481.firebaseio.com",
+    "project_id": "paid-1570884647481",
+    "storage_bucket": "paid-1570884647481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578365737129:android:b17bdb5b436ffd45f2c1b8",
+        "android_client_info": {
+          "package_name": "com.paid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578365737129-23h5b6nmk2s3ib7nc4q3l0konghpg6gv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqgbuPPOuHoWOObFS1Nq5teIY7rDRky4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578365737129-23h5b6nmk2s3ib7nc4q3l0konghpg6gv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
